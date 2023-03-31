@@ -1,0 +1,124 @@
+body{
+    padding-top: 56px;
+    display: relative;
+    background-color: #c3d8ea;
+  }
+  
+  header{
+    background: url("images/cover3.jpg") center center/cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.311);
+    background-blend-mode: multiply;
+    height: 100vh;
+    padding: 8em;
+  }
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color:rgb(38, 36, 39) !important;
+}
+.pt-5{
+  padding-bottom: 5rem;
+  padding-top: 5rem !important;
+}
+.py-5 {
+  margin-top:4rem;
+  padding-top: 2rem;
+  padding-bottom: 7rem!important;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  background-color:rgb(255, 255, 255);
+}
+  
+  
+  #round{
+    border-radius: 50%;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 19vw;
+    object-fit: cover;
+  }
+  
+  #menu{
+    
+    padding-top: 5em;
+  }
+  
+  #contact{
+    height: 41rem;
+    background-color: rgb(56, 56, 56);
+  }
+  
+  h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #about{
+    
+    padding-bottom: 10em;
+  }
+  
+  #newform{
+    background:#c3d8ea;
+  }
+  
+  #newform1{
+    background:#c3d8ea;
+  }
+  
+  form div input{
+    border-radius: 50%;
+  }
+  
+  form{
+    color: white;
+    font-weight: bold;
+  }
+  
+  #submit{
+    margin-top:40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: none;
+    height: 3rem;
+    width: 10em;
+    transition: 0.2s;
+    background-color: black;
+    color:white;
+  }
+  
+  #submit:hover{
+    color: black;
+    background-color: white;
+  }
+  
+  video{
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: -10px 0px 23px -7px #c3d8ea, 
+    10px 0px 23px -7px #c3d8ea;
+  }
+  .fa-phone-square{
+    color:black;
+  }
+
+  h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+  }
+  
+  p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color:black;
+}
+.lead{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+}
+.form-label{
+  color:black;
+}
